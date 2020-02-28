@@ -62,7 +62,7 @@ int main(int argc, const char * argv[]) {
     // seed for PRG
     // equal to the current UNIX timestamp
     // last timestamp
-    std::string str = "2020-02-10 18:53:00";
+    std::string str = "2020-02-20 13:30:00";
     time_t t = strTime2unix(str);
     unsigned int seed = (unsigned int)time(NULL);
     

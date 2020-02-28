@@ -37,7 +37,7 @@ std::string byteArray2hexString(char* bytes, unsigned int array_size) {
 int main(int argc, const char * argv[]) {
     
     // seed for PRG
-    unsigned int seed = 15000000;
+    unsigned int seed = 1581389580;
     
     /* initialize PRG with the given seed */
     srand (seed);
